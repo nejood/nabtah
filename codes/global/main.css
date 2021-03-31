@@ -1,0 +1,697 @@
+/*
+
+Name: nejood Abdulaziz Alfashka
+ID: 1505971
+Section: IAR
+Suject: CPCS-403
+Assignment #2                                          
+
+--------------------------
+  page description:
+
+  this page is a style sheet for all the website pages.
+
+*/
+
+
+/*====================================================================== */
+
+
+/*-----------------  START TAGS STYLE ----------------- */
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+
+}
+article {
+  -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f8ec;
+    padding: 10px;
+}
+/*-----------------------Start slide show ------*/
+.bubble{
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+	margin-top: 15%;
+}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 900px;
+	position: relative;
+	margin:  0 auto;
+}
+
+/* Next & previous buttons */
+.prev {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	left: 0;
+	padding: 16px;
+	margin-top: -22px;
+	color: #ff6666;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 4px 0 0 4px;
+}
+.next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	right: 0;
+	padding: 16px;
+	margin-top: -22px;
+	color: #ff6666;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 4px 4px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #e2f0d9;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 2% 5%;
+	position: absolute;
+	margin-top: 38%;
+	margin-left: 42%;
+	background-color: gray;
+	opacity: 0.7;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.activeSlide, .dot:hover {
+	opacity: 0.7;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+/* ------------End slid show*/
+/*===============pdf style*/
+.resumeSection{
+min-height: 700px;
+}
+.pdf-container{
+margin-left: 27%;
+height: 100px;
+margin-top: 13%;
+margin-bottom: 48%;
+
+}
+.resumepdf{
+width: 192%;
+height: 743px;
+}
+
+/*====End of pdf style */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background:#d6eac7;
+    padding:1%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  
+    
+}
+nav ul li{
+	
+	padding-top: 28%;
+}
+nav ul a {
+    font-size: 150%;
+    text-decoration: none;
+    color: white; 
+}
+table {
+    border-collapse: collapse;
+}
+
+td,th{
+ border-style: solid;
+ border-color: lightgray;
+ font-size: 110%;
+}
+th{
+	background-color: #f1f8ec;
+	color:  #456d2c;
+}
+td{
+	text-align: center;
+	color: #3d5c5c;
+}
+td a{
+	text-decoration: none;
+	color: #3d5c5c;
+}
+legend{
+	color: #ff6666;
+    font-weight: bold;
+}
+fieldset{
+	background-color: #f1f8ec;
+	border-color:  #456d2c;
+	padding: 5px;
+	border-style: dashed;
+}
+form{
+	margin: auto;
+	width: 50%;
+
+}
+fieldset label{
+	color: #3d5c5c;
+}
+/*-----------------  END TAGS STYLE ----------------- */
+
+
+/*====================================================================== */
+
+
+/*-----------------  START CLASSES STYLE ----------------- */
+.tip_point{
+	color: #456d2c;
+}
+.tip_title{
+ font-size: 130%;
+color: #ff6666;
+font-weight: bold;
+margin: 2%;
+}
+.benefits_title{
+ font-size: 130%;
+color: #ff6666;
+font-weight: bold;
+}
+.tips{
+color: #3d5c5c;
+margin-bottom: 2%;
+
+}
+.benefits_tips{
+color: #3d5c5c;
+
+margin-top: 4%;
+}
+.tipsList{
+ margin-left: 4%;	
+}
+.activeSide{
+color: #456d2c;
+
+}
+.tableInfo{
+margin: auto;
+margin-top: 15%;
+}
+.captionInfo{
+text-align: left;
+	color: #3d5c5c;
+	 font-size: 110%;
+}
+
+.star{
+	color: red;
+}
+.video_title{
+	
+font-size: 140%;
+color: #ff6666;
+text-align: center;
+font-weight: bold;
+margin: 3%;	
+}
+
+.video_cotainer{
+	margin: auto;
+	float: center;
+	margin-top: 11.5%;
+	max-width: 53%;
+background-color: #f1f8ec;
+border-style: dashed;
+border-width: 3px;
+border-color:  #456d2c;
+
+}
+.video{
+	width: 45%;
+	height:30%;
+	padding:  2%;
+
+}
+
+.button{
+	width: 30%;
+	height: 50%;
+	color: #456d2c;
+	font-weight: bold;
+   margin-left: 35%;
+}
+.input_text{
+
+	width: 40%;
+}
+
+.find{
+	width: 19%;
+	color: #3d5c5c;
+}
+.plant_img{
+	height: 20%;
+	width: 20%;
+	
+
+}
+.back{
+	 
+	 background-image: url("../images/back.png");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-color:#f1f8ec; 
+	 border: none;
+	 padding: 3%;
+	 position: static;
+	color: #000;
+	ursor: pointer;
+     left: 7%;
+	 
+}
+.suggestions{
+	padding: 27%;
+
+}
+.ask{
+	
+	padding: 27%;
+}
+.ask_form{
+	width: 100%;
+	height: 100%;	
+}
+.ask_fieldset{
+	background-color: #f1f8ec;
+	border-color:  #456d2c;
+	border-style: solid;
+
+		
+}
+.question{
+	width: 20%;
+	color: #456d2c;
+	font-weight: bold;
+	right: 50px;
+   margin-top: 12%;
+   position: fixed;
+
+}
+.question-form{
+	display: none;
+	margin-top: 15%;
+}
+.question_div{
+	width: 80%;
+	padding: 3%;
+	background-color: #f1f8ec;
+	border-color:  #456d2c;
+	margin-top: 15%;
+	margin-bottom: 100px;
+}
+.question-content{
+	width: 100%;
+	float: left;
+	display: block;
+}
+.answer{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.answer-form{
+	float: left;
+}
+.input{
+	height: 25px;
+	padding: 3px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid black;
+	outline: none;
+	margin-bottom: 5px;
+}
+.submit{
+	height: 30px;
+	width: 100px;
+	color: white;
+	background-color: #ff6666;
+	border: #ff6666;
+	cursor: pointer;
+	border-radius: 10px;
+	outline: none;
+
+}
+.headerStyle_UL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e2f0d9;
+	width: 100%;
+position: fixed;
+
+}
+
+
+.headerStyle_LI {
+    float: left;
+    border-radius: 5px;
+   
+}
+
+
+.headerStyle_A {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+}
+
+
+.headerStyle_A:hover:not(.active) {
+    background-color: #c7e2b6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.headerStyle_A:hover,.active {
+    background-color:#ff6666;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+     background-color:#ff6666;
+    border-radius: 5px;/
+    text-decoration: none;
+}
+.logo{
+	width: 100%;
+	background-color: #fcfdfa;
+	position: fixed;
+	z-index: 3;
+
+}
+.footer_cotainer{
+max-width: 101%;
+background-color: #e2f0d9;
+margin-left: -1%;
+
+position: relative;  
+}
+
+.footer_text{
+margin-top: -11%;	
+text-align: center;
+font-size: 100%;
+font-weight: bold;
+color: #3d5c5c;
+
+}
+.brief{
+width: 24%;
+background-color: #e2f0d9;
+padding: 2%;
+font-size: 120%;
+border-radius: 4px;
+border-color:  #456d2c;
+border-style: dashed;
+margin-top: 10%;
+margin-left: 3%;
+margin-bottom: -8%;
+}
+.benefits{
+	max-width: 40%;
+	max-height: 120%;
+	background-color: #e2f0d9;
+	padding: 1%;
+	float: right;
+	margin-top: -5%;
+	margin-right: -0.66%;
+	margin-bottom: -2%;
+}
+.imgPlants
+{
+	width: 10%;
+	height: 10%;
+	margin-top: 15%;
+	margin-left: 2%;
+	float: left;
+}
+.plant_info{
+	margin-top: 8%;
+	margin-bottom: -3%;
+	margin-right: -0.66%;
+}
+.tips_cotainer{
+	margin-top: 8%;
+margin-bottom: -3%;
+
+	margin-right: -0.66%;
+}
+.feedback{
+	margin-top: 10%;
+}
+
+
+/* Remove margins and padding from the list */
+.ulDO {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Style the list items */
+.ul_li_DO {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  color: #3d5c5c;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+.ul_li_DO:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+.ul_li_DO:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+.ul_li_DO.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+.ul_li_DO.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.headerDO {
+  background-color: #e2f0d9;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+/* Clear floats after the header */
+.headerDO:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+.inputDo {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+
+  background: #eee;
+  float: center;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 18%;
+	color: #456d2c;
+	font-weight: bold;
+   margin-right: -3%;
+   border: solid;
+	border-radius: 4px;
+	padding: 2%;
+	border-width: 1px;
+
+
+}
+.MyList{
+	margin:5px;
+	color: #ff6666;
+}
+.addBtn:hover {
+  background-color: #bbb;
+}
+.doList_div{
+  margin-top: 10%;
+  max-width: 40%;
+}
+.contimage{
+  width: 15%;
+  height: 15%;
+}
+.contimagediv{
+margin-left: 9%;
+
+}
+
+.cont_text{	
+margin-left:11%;
+margin-top: -5%;
+font-size: 100%;
+font-weight: bold;
+color: #b30059;
+}
+.valid_img{
+margin-left:43%;
+margin-top: 3%;
+}
+.completed{
+margin-top: 3%;
+color: #e2f0d9;	
+text-align: center;
+font-size: 50%;
+font-weight: bold;
+}
+.xhtml10{
+ background-image: url("https://www.w3.org/Icons/valid-xhtml10");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-color:#f1f8ec; 
+	 border: none;
+	 padding: 3%;
+	 position: static;
+	color: #000;
+	ursor: pointer;
+     left: 7%;
+}
+.galleryImgs{
+	width: 800px; 
+	height:400px;
+}
+/*-----------------  END CLASSES STYLE ----------------- */

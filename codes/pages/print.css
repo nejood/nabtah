@@ -1,0 +1,17 @@
+/*
+
+Name: nejood Abdulaziz Alfashka
+ID: 1505971
+Section: IAR
+Suject: CPCS-403
+Assignment #2                                          
+
+--------------------------
+  page description:
+
+  this page is a style sheet for "info.html" page to print the table with its caption.
+
+*/
+header, footer{
+display: none;
+}
